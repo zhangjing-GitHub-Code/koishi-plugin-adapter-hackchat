@@ -17,5 +17,8 @@
   ],
   "peerDependencies": {
     "koishi": "4.15.5"
+  },
+  "devDependencies": {
+    "hackchat-engine": "^1.1.5"
   }
 }

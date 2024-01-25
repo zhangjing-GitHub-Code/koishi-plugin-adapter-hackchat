@@ -1,11 +1,7 @@
 import { Context, Schema } from 'koishi'
-
-export const name = 'adapter-hackchat'
-
-export interface Config {}
-
-export const Config: Schema<Config> = Schema.object({})
-
-export function apply(ctx: Context) {
-  // write your plugin here
-}
+import {HackchatBot} from './bot';
+//import {Config} from './bot';
+//export const name = 'adapter-hackchat'
+export * from './adapter';
+export * from './bot';
+export default HackchatBot;
